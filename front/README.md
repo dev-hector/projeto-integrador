@@ -2,11 +2,12 @@
 
 ## Frontend
 
--   Typescript
--   Next.js
--   Tailwind.css
+- Typescript
+- Next.js
+- Tailwind.css
 
 ## Backend
 
--   Typescript
--   Express.js
+- Typescript
+- Express.js
+- MySQL
