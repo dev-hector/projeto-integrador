@@ -53,10 +53,13 @@ export function RegisterForm({ show, toggleVisibility }: Props) {
     if (!isValid) return;
 
     // !ALTERAR ANTES DE FAZER UPLOAD PARA O HEROKU
-    await fetch("http://localhost:3000/api/postUserInfo", {
-      method: "POST",
-      body: JSON.stringify(formInputs),
-    });
+    await fetch(
+      "https://projeto-integrador-front.onrender.com/api/postUserInfo",
+      {
+        method: "POST",
+        body: JSON.stringify(formInputs),
+      }
+    );
     toggleVisibility();
   }
 
